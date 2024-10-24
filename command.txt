@@ -1,0 +1,125 @@
+1. TERMINAL EMULATOR :
+A terminal emulator is a computer program that simulates a video terminal within a different display architecture.
+
+2. DATE COMMAND :
+To know the date and time we use date command.
+
+3. CAL COMMAND :
+It is used to display calender on the display.
+
+4. WHOAMI COMMAND :
+Tells you about the user account you are using.
+
+5. ID COMMAND :
+Provides information about a user’s identity.
+
+
+LS COMMAND :
+Lists the contents of a directory or file.
+
+
+mkdir COMMAND :
+It is used to make a folder or directory.
+
+
+touch COMMAND :
+It is used to make a file.
+
+
+Counting files in directory:
+The wc command stands for word count and the -l option tells it to count lines instead of words. So when you run ls . | wc -l , you’re listing all the files and directories in the current directory.
+
+
+echo COMMAND :
+The echo command in Linux is a built-in tool that displays text, variables, and special characters to the terminal or other standard output.
+
+
+Sort files by size :
+we can use -s command to the ls command.
+
+RUNNING PROCESS:
+To check running processes in Linux, you can use the following commands:
+
+
+ip address show :
+To show your IP address in Linux, you can use the ifconfig, ip, or hostname commands
+
+
+uptime :
+The Linux uptime command displays the system’s uptime, or how long it has been running, and when it was last booted. The syntax for the command is uptime.
+
+
+pwd command :
+displays the current working directory, or folder, in the shell prompt window
+
+
+cd command :
+The cd command in Linux, short for "change directory", is a fundamental tool for navigating the file system.
+
+
+cd .. command
+it is used to go back to the previous directory or folder.
+
+Host command :
+The purpose of the Linux Host command is to query Domain Name System (DNS) servers to resolve domain names to IP addresses or vice versa.
+
+ grep command :
+
+. man command:
+The man command in Linux displays the user manual for a command, system call, library function, or configuration file. The manual page includes information about the command's syntax, options, examples, and more.
+
+. whatis command:
+The whatis command in Linux provides a brief description of a command-line utility or function. It extracts information from the system's pre-built database, also known as the "whatis database" or "man database".
+
+. cd ~ command :
+This is also a shortcut to get back into your home directory. Same as cd.. .
+
+. ls -lh command :
+It shows the numbers in a more human-readable format. Also shown below is some variation in the way you can give the options to ls.
+
+. mkdir -p command :
+a command in Linux and Unix-like operating systems used to create a new directory. The -p option stands for “parent” and it allows you to create a directory hierarchy in one step, without getting an error if the parent directories already exist.
+
+. rm -i command :
+To prevent yourself from accidentally removing a file, you can type rm -i.
+
+. htop command :
+The htop command in Linux is a command-line tool that monitors system performance and manages running processes.
+used for searching and matching text patterns in files contained in the regular expressions.
+
+. wc command:
+The Linux wc command calculates a file’s word, line, character, or byte count. Far from just being a utility for word processing, wc is a useful tool for a variety of system tasks.
+
+. sort command :
+The sort command is used in Linux to print the output of a file in given order. tool to monitor processes running on your Linux system.
+
+
+ls -l command :
+It is used to list information about files and directories within the file system
+
+
+mv command :
+mv command in Linux is generally used to move or rename a file or directory.
+
+chmod command :
+The chmod command in Linux is used to change file and directory permissions. The permissions are as follows: read, write, or execute.
+
+. sort COMMAND :
+The sort command is used in Linux to print the output of a file in given order. This command processes on your data and reorders it in the specified way, which helps us to read the data efficiently.
+
+. head and tail COMMAND :
+The head command will output the first part of the file .
+while the tail command will print the last part of the file. Both commands write the result to standard output.
+
+. wc COMMAND :
+The Linux wc command calculates a file’s word, line, character, or byte count. Far from just being a utility for word processing, wc is a useful tool for a variety of system tasks.
+
+
+HARDLINK :
+A Hard link is a powerful feature of the Linux file system that can be used to create multiple references to a single file. Unlike symbolic links, which are simply pointers to another file, hard links are actual references to the file itself.
+
+SOFTLINK :
+Soft links, also known as symbolic links or symlinks, act as shortcuts or references to files and directories in Linux. Unlike hard links, soft links are not direct mirrors of the target files.
+
+ curl COMMAND :
+The curl command is a command-line tool in Linux that allows users to transfer data to and from a server. It’s short for “Client URL” and is commonly used for web development and testing.
